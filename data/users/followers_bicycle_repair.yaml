@@ -1,0 +1,558 @@
+# Fake users for the followers scenario, topic "bicycle repair and maintenance".
+# Generated once; edit by hand if needed. The harness checks the shape of the data:
+# n_top users with 80-250 followers (6 with following close to followers and 1-3 posts,
+# 2 with few followings and 8+ posts), the rest 5-60 followers, following clearly lower,
+# 3-8 posts.
+topic: bicycle repair and maintenance
+users:
+- name: bar_tape_bev
+  followers: 30
+  following: 5
+  posts:
+  - 'Learned this the hard way: Cleaned the cassette with a floss technique using an old rag between the cogs. Took ten minutes and it looks new.'
+  - 'Reminder: Always relieve spoke tension after truing by squeezing pairs of spokes together, then check again.'
+  - 'Quick tip: Measured my chain at 0.5% stretch, swapped it before it chewed up the cassette. Chains are cheap, cassettes are not.'
+  - Learned how to fix a flat on the side of the road today. Tire levers, find the thorn, patch, and back on the bike.
+- name: bottom_bracket_ben
+  followers: 50
+  following: 8
+  posts:
+  - 'From the workbench: Switched to wax for three months: cleaner drivetrain, quieter ride, but you have to rewax every 300 km or so.'
+  - 'Pro tip: mark the valve hole side of the rim with tape before you start lacing, it keeps the pattern straight in your head.'
+  - 'Reminder: Contaminated pads squeal and do not bite. Replace them and clean the rotor with isopropyl alcohol.'
+  - 'Shop note: Bed in new pads: twenty hard stops from medium speed, never to a full stop. Makes a huge difference.'
+  - Swapped to a wider handlebar for gravel. Re-taped, re-set the levers, much more control on loose descents.
+  - 'Quick tip: Carry a tire plug kit. Tubeless sealant handles small punctures, plugs handle the sidewall cuts.'
+  - 'From the workbench: Ceramic bearings are mostly marketing for home riders. Clean, well-greased steel bearings roll just as well.'
+- name: rideready_ray
+  followers: 56
+  following: 15
+  posts:
+  - First time adjusting my own brakes and it actually worked. Barrel adjuster, small turns, squeeze to check, repeat.
+  - Seized seatpost? Penetrating oil, patience, and never twist it with the saddle as a lever.
+  - 'Switched to wax for three months: cleaner drivetrain, quieter ride, but you have to rewax every 300 km or so.'
+  - Inner tube sizes are printed on the tire sidewall. Match the width range and the valve type to your rim.
+  - 'Saddle height: heel on the pedal at the bottom of the stroke, leg straight. Then ride and adjust a few millimetres.'
+  - Check rotor thickness once in a while. Below the minimum stamped on it, replace it.
+  - Patched tubes are as good as new if you do it right. I have tubes with five patches still holding air.
+- name: puncture_proof_peg
+  followers: 21
+  following: 8
+  posts:
+  - Chain skipping on new cassette but old chain? The worn chain is the problem. Replace them together when in doubt.
+  - 'Patch a tube properly: roughen, thin layer of glue, wait until it is dry to the touch, then press the patch hard.'
+  - Contaminated brake pads squeal forever. Sand them lightly, clean the rotor with alcohol, and keep chain lube far away.
+- name: hubservice_hal
+  followers: 154
+  following: 152
+  posts:
+  - Keep your patch kit sealed. The glue tube dries out once opened and you find out on the worst possible day.
+  - Tubeless rims are stiffer to true but they hold their shape much longer once you get them right.
+  - Mineral oil and DOT fluid are not interchangeable. Check what your brakes use before you open anything.
+- name: mia_on_two_wheels
+  followers: 20
+  following: 3
+  posts:
+  - Tire pressure on gravel is everything. Dropped 5 psi and suddenly the washboard sections feel like pavement.
+  - 'Learned this the hard way: Saddle height: heel on the pedal at the bottom of the stroke, leg straight. Then ride and adjust a few millimetres.'
+  - Lateral true first, then radial, then dish. Doing it in the wrong order means doing it twice.
+  - 'From the workbench: Measured my chain at 0.5% stretch, swapped it before it chewed up the cassette. Chains are cheap, cassettes are not.'
+  - 'Learned this the hard way: Shift cable housing ends should be cut square and opened up. A crushed end makes indexing feel sticky.'
+  - 'Quick tip: Small hop in the rim? Loosen the spokes at the high spot a little, tighten the ones opposite. Tiny turns only.'
+  - 'Quick tip: Chain skipping on new cassette but old chain? The worn chain is the problem. Replace them together when in doubt.'
+  - Squeaky saddle? Often it is the rails in the clamp. A tiny bit of grease on the contact points usually silences it.
+- name: trueing_stand_tom
+  followers: 48
+  following: 9
+  posts:
+  - 'Reminder: Mud clearance check: run your finger between the tire and the frame. If it barely fits, wet rides will clog it.'
+  - Clean the rims on rim brake bikes. Black streaks of pad residue reduce braking more than you would expect.
+  - 'Quick tip: Quick links are a gift. Keep a spare in your saddle bag along with a mini chain tool and you can fix most breakages.'
+  - Keep your patch kit sealed. The glue tube dries out once opened and you find out on the worst possible day.
+  - 'Quick tip: Spongy hydraulic brakes mean air in the system. A bleed kit and half an hour fixes it.'
+  - 'From the workbench: Spoke tension uneven after a pothole? Pluck each spoke and listen for the dull one. That is where to start truing.'
+  - 'Learned this the hard way: Torque wrench on carbon parts, always. Five newton-metres on a stem bolt is not a suggestion.'
+  - Cassette lockring needs real torque, around forty newton-metres. Under-tightened rings creak and loosen on climbs.
+- name: pedal_thread_paul
+  followers: 13
+  following: 4
+  posts:
+  - Grease every thread except where the manual says threadlocker. Seized bolts are the real enemy of home repair.
+  - Contaminated brake pads squeal forever. Sand them lightly, clean the rotor with alcohol, and keep chain lube far away.
+  - 'Shop note: Hydraulic brakes feel spongy? A simple lever bleed often brings them back. Full bleed once a year keeps them crisp.'
+  - 'Shop note: Rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Centered in seconds.'
+  - 'Replacing a single broken spoke: match the length, thread it the same way as its neighbours, bring it up to tension slowly.'
+  - 'Quick tip: Wet lube for rainy months, dry lube for summer dust. Using the wrong one is worse than using none at all.'
+- name: cable_tension_cal
+  followers: 221
+  following: 21
+  posts:
+  - Rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Centered in seconds.
+  - Bottom bracket creak was actually the pedals. Always check the easy things first.
+  - 'Bike shop showed me the ABC check: air, brakes, chain. Takes one minute before every ride.'
+  - Quick links are a gift. Keep a spare in your saddle bag along with a mini chain tool and you can fix most breakages.
+  - Wash the bike with low-pressure water. A pressure washer pushes grit straight into the bearings and hubs.
+  - 'Front derailleur rubbing in the big ring? Check the height first: one to two millimetres above the teeth.'
+  - Contaminated pads squeal and do not bite. Replace them and clean the rotor with isopropyl alcohol.
+  - 'Headset play check: front brake on, rock the bike back and forth. A clunk means the top cap needs a small tweak.'
+  - Talc in the tire helps the tube settle without twisting. Old trick but it still works.
+- name: cleat_wedge_cy
+  followers: 8
+  following: 3
+  posts:
+  - Seatpost slipping down? Clean it, use carbon paste if it is carbon, and torque the clamp to spec, not by feel.
+  - Patched tubes are as good as new if you do it right. I have tubes with five patches still holding air.
+  - Find the cause of the flat before you put the new tube in. Run your fingers carefully around the inside of the tire.
+  - 'Shop note: Brake rub that comes and goes is usually a slightly out of true wheel, not the caliper. Spin it slowly and watch the gap.'
+  - 'Quick tip: Wash the bike with low-pressure water. A pressure washer pushes grit straight into the bearings and hubs.'
+- name: chainlube_carla
+  followers: 50
+  following: 12
+  posts:
+  - 'From the workbench: Check your derailleur hanger after any crash. A bent hanger makes shifting vague no matter how you adjust the cable.'
+  - 'Quick tip: Finally replaced my worn brake cables. Stopping power is back and the levers feel light again.'
+  - Small hop in the rim? Loosen the spokes at the high spot a little, tighten the ones opposite. Tiny turns only.
+  - 'From the workbench: Bleeding brakes is less scary than it looks. Go slow, keep the reservoir level, no bubbles.'
+  - 'Reminder: Rim brakes still have fans for a reason: cheap, simple, easy to fix anywhere.'
+  - 'Learned this the hard way: Find the puncture cause before fitting a new tube. Run your fingers carefully inside the tire to catch the thorn.'
+  - Quick release levers should leave a print on your palm when you close them. Loose wheels are not worth the risk.
+  - Lube the chain, then wipe it. The lube belongs inside the rollers, not on the outside collecting grit.
+- name: chainring_rick
+  followers: 33
+  following: 10
+  posts:
+  - Find the cause of the flat before you put the new tube in. Run your fingers carefully around the inside of the tire.
+  - 'From the workbench: Hub bearings feel gritty when you spin the axle by hand? Time for a service before the cones get pitted.'
+  - 'Shop note: Contaminated pads squeal and do not bite. Replace them and clean the rotor with isopropyl alcohol.'
+  - Talc in the tire helps the tube settle without twisting. Old trick but it still works.
+  - Brake rub that comes and goes is usually a slightly out of true wheel, not the caliper. Spin it slowly and watch the gap.
+  - 'Shop note: First time adjusting my own brakes and it actually worked. Barrel adjuster, small turns, squeeze to check, repeat.'
+- name: spokewrench_sam
+  followers: 14
+  following: 6
+  posts:
+  - If your wheel has side to side play at the rim, check the hub before blaming the spokes.
+  - Spoke nipples seize in winter. A drop of penetrating oil the night before saves a lot of rounded flats and swearing.
+  - Inflate the tube a little before fitting it. It keeps it from getting caught under the bead.
+  - After a muddy ride rinse with low pressure water. Pressure washers push grit straight into the bearings.
+  - Disc rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Fixes most rub in a minute.
+  - Chain checker tools cost less than a coffee and they save you from replacing a whole drivetrain later.
+  - Clean the rims on rim brake bikes. Black streaks of pad residue reduce braking more than you would expect.
+- name: cassette_cass
+  followers: 52
+  following: 28
+  posts:
+  - Brake rub that comes and goes is usually a slightly out of true wheel, not the caliper. Spin it slowly and watch the gap.
+  - Rear shifting noisy in the middle of the cassette only? Check the B-tension screw before touching the cable.
+  - 'Tubeless sealant dries out after a few months. Shake the wheel: no sloshing means it is time to top it up.'
+  - Wet lube for rainy months, dry lube for summer dust. Using the wrong one is worse than using none at all.
+  - 'Mud clearance check: run your finger between the tire and the frame. If it barely fits, wet rides will clog it.'
+  - Tubeless valve clogged with dried sealant? Remove the core, poke it clean, and reinstall with a little grease.
+- name: torque_spec_ted
+  followers: 10
+  following: 5
+  posts:
+  - Handlebar tape lasts longer if you start at the bar end and wrap toward the stem, overlapping by a third.
+  - Brake pads on gravel bikes wear fast. Check the pad thickness every few rides, metal on rotor is an expensive noise.
+  - 'From the workbench: Tire pressure is personal: rider weight, tire width, surface. Start from a calculator, then drop a few psi and feel it.'
+  - Tighten crank bolts in steps, alternating sides on two-bolt cranks. Uneven tightening can crack the arm.
+- name: valve_core_vic
+  followers: 162
+  following: 170
+  posts:
+  - Replace brake pads at about one millimetre of material. Metal on rotor ruins the rotor and costs far more.
+  - Cartridge bearings are easy to swap with a simple press made from a threaded rod and washers.
+- name: dropbar_dot
+  followers: 46
+  following: 24
+  posts:
+  - Cleaned and re-greased the pedals. They were crunchy and now they spin forever.
+  - 'Shop note: Tire pressure on gravel is everything. Dropped 5 psi and suddenly the washboard sections feel like pavement.'
+  - 'From the workbench: Seized seatpost? Penetrating oil, patience, and never twist it with the saddle as a lever.'
+  - 'Reminder: Glueless patches are fine for the road, but at home use a proper patch and vulcanizing fluid.'
+  - Ceramic bearings are mostly marketing for home riders. Clean, well-greased steel bearings roll just as well.
+- name: fixedgear_finn
+  followers: 13
+  following: 4
+  posts:
+  - 'Tubeless sealant dries out after a few months. Shake the wheel: no sloshing means it is time to top it up.'
+  - 'Reminder: Squeaky saddle? Often it is the rails in the clamp. A tiny bit of grease on the contact points usually silences it.'
+  - 'Learned this the hard way: Cassette lockring needs real torque, around forty newton-metres. Under-tightened rings creak and loosen on climbs.'
+  - 'Reminder: Patched tubes are as good as new if you do it right. I have tubes with five patches still holding air.'
+  - Lights, bell, fenders, lock. A commuter bike is a tool and good tools get looked after.
+  - 'Quick tip: Switched to wax for three months: cleaner drivetrain, quieter ride, but you have to rewax every 300 km or so.'
+- name: trailside_tess
+  followers: 18
+  following: 9
+  posts:
+  - 'Reminder: Hydraulic brakes feel spongy? A simple lever bleed often brings them back. Full bleed once a year keeps them crisp.'
+  - Mudguards save the drivetrain as much as your back. Less grit in the chain means fewer replacements.
+  - Brake pads on gravel bikes wear fast. Check the pad thickness every few rides, metal on rotor is an expensive noise.
+  - 'Reminder: Find the puncture cause before fitting a new tube. Run your fingers carefully inside the tire to catch the thorn.'
+  - Rim tape matters. A cheap strip that shifts will give you mystery flats from the spoke holes no matter how careful you are.
+  - 'Learned this the hard way: Cleaned and re-greased the pedals. They were crunchy and now they spin forever.'
+  - Gravel rides wreck bottom brackets. Pull it once a season, clean the shell, fresh grease, and it will last for years.
+- name: multitool_mo
+  followers: 28
+  following: 6
+  posts:
+  - 'Learned this the hard way: Patch a tube properly: roughen, thin layer of glue, wait until it is dry to the touch, then press the patch hard.'
+  - 'Learned this the hard way: Bought a proper tension meter after years of guessing by ear. Turns out my rear drive side was 20% low the whole time.'
+  - 'Learned this the hard way: If your wheel has side to side play at the rim, check the hub before blaming the spokes.'
+  - 'From the workbench: Repacked my front hub with fresh grease and new balls. Spins like a dream now.'
+- name: headset_hank
+  followers: 15
+  following: 7
+  posts:
+  - 'Tire pressure is personal: rider weight, tire width, surface. Start from a calculator, then drop a few psi and feel it.'
+  - Rim wear indicators exist for a reason. Once the groove is gone, the rim wall is too thin to trust.
+  - 'Barrel adjuster rule: chain wants to climb to a bigger cog but hesitates? Quarter turn out. Overshifts? Quarter turn in.'
+  - Small hop in the rim? Loosen the spokes at the high spot a little, tighten the ones opposite. Tiny turns only.
+- name: gravel_gus
+  followers: 26
+  following: 10
+  posts:
+  - Gravel rides wreck bottom brackets. Pull it once a season, clean the shell, fresh grease, and it will last for years.
+  - Brake lever reach adjustment is a two minute job and makes a huge difference for smaller hands.
+  - Grease every thread except where the manual says threadlocker. Seized bolts are the real enemy of home repair.
+- name: hubcone_hugo
+  followers: 7
+  following: 3
+  posts:
+  - Clean the rims on rim brake bikes. Black streaks of pad residue reduce braking more than you would expect.
+  - Store tires away from sunlight and heat. Rubber cracks along the sidewall long before the tread wears out.
+  - 'Learned this the hard way: Chain checker tools cost less than a coffee and they save you from replacing a whole drivetrain later.'
+  - Mudguards save the drivetrain as much as your back. Less grit in the chain means fewer replacements.
+  - A truing stand is the best upgrade for a home mechanic. You see everything that a flipped bike hides from you.
+- name: tuneup_tia
+  followers: 53
+  following: 19
+  posts:
+  - 'From the workbench: Brake lever reach adjustment is a two minute job and makes a huge difference for smaller hands.'
+  - Seatpost slipping down? Clean it, use carbon paste if it is carbon, and torque the clamp to spec, not by feel.
+  - 'Learned this the hard way: After a muddy ride rinse with low pressure water. Pressure washers push grit straight into the bearings.'
+  - 'Quick tip: Squeaky chain after rain? Dry it with a rag, then a light coat of lube. Do not just add more lube on top of the grime.'
+  - Freehub clicking turned into grinding. Pulled it apart, cleaned the pawls, light oil, back to clicking.
+  - 'Shop note: A creaking bottom bracket is often just a dry pedal thread. Grease the pedals before you pull the crank.'
+  - Brake cables stretch in the first weeks. Re-tension them after the first few rides or the lever will feel soft.
+  - 'Shop note: Headset service: clean the races, fresh grease, set the preload so the bars turn freely with no knock.'
+- name: crankarm_cole
+  followers: 25
+  following: 12
+  posts:
+  - Finally replaced my worn brake cables. Stopping power is back and the levers feel light again.
+  - Cup and cone hubs need adjusting, not replacing. Slight preload, no play, smooth spin.
+  - 'Shop note: Lube the chain, then wipe it. The lube belongs inside the rollers, not on the outside collecting grit.'
+  - 'Reminder: Repacked my front hub with fresh grease and new balls. Spins like a dream now.'
+  - If your wheel has side to side play at the rim, check the hub before blaming the spokes.
+  - 'Bike shop showed me the ABC check: air, brakes, chain. Takes one minute before every ride.'
+  - Zip tie on the fork makes a decent emergency truing guide when you are on the road without a stand.
+- name: gearcable_gwen
+  followers: 34
+  following: 14
+  posts:
+  - Inflate the tube a little before fitting it. It keeps it from getting caught under the bead.
+  - 'From the workbench: Disc rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Fixes most rub in a minute.'
+  - 'Shop note: Wet lube for rainy months, dry lube for summer dust. Using the wrong one is worse than using none at all.'
+- name: wrenchday_wren
+  followers: 47
+  following: 23
+  posts:
+  - 'Quick tip: Wheel building weekend done. 32 spokes, three cross, brass nipples. Nothing beats riding on wheels you laced yourself.'
+  - 'Learned this the hard way: Mud clearance check: run your finger between the tire and the frame. If it barely fits, wet rides will clog it.'
+  - Spoke tension uneven after a pothole? Pluck each spoke and listen for the dull one. That is where to start truing.
+- name: tirelever_toby
+  followers: 51
+  following: 6
+  posts:
+  - Sealant dries out faster than you think in hot weather. Top it up every couple of months.
+  - Spoke tension uneven after a pothole? Pluck each spoke and listen for the dull one. That is where to start truing.
+  - Pinch flats come in pairs, snake bite holes. If you see two slits, your pressure was too low.
+  - Seatpost slipping down? Clean it, use carbon paste if it is carbon, and torque the clamp to spec, not by feel.
+  - Commuting daily means maintenance weekly. Ten minutes on Sunday keeps the bike quiet all week.
+  - Hub bearings feel gritty when you spin the axle by hand? Time for a service before the cones get pitted.
+- name: backpedal_bo
+  followers: 36
+  following: 19
+  posts:
+  - Find the puncture cause before fitting a new tube. Run your fingers carefully inside the tire to catch the thorn.
+  - Cleaned and re-greased the pedals. They were crunchy and now they spin forever.
+  - Always relieve spoke tension after truing by squeezing pairs of spokes together, then check again.
+- name: pumpkin_pump_pat
+  followers: 8
+  following: 2
+  posts:
+  - Valve cores loosen over time. A core tool costs almost nothing and saves a slow leak headache.
+  - Bought a proper tension meter after years of guessing by ear. Turns out my rear drive side was 20% low the whole time.
+  - Find the cause of the flat before you put the new tube in. Run your fingers carefully around the inside of the tire.
+  - Squeaky saddle? Often it is the rails in the clamp. A tiny bit of grease on the contact points usually silences it.
+  - Brake pads on gravel bikes wear fast. Check the pad thickness every few rides, metal on rotor is an expensive noise.
+  - Clean drivetrain, happy drivetrain. Degreaser, brush, rinse, dry, lube, wipe off the excess.
+  - Repacked my front hub with fresh grease and new balls. Spins like a dream now.
+- name: tread_wear_trev
+  followers: 51
+  following: 9
+  posts:
+  - If your wheel ticks under load, try a drop of light oil where the spokes cross. Nine times out of ten the noise is gone.
+  - 'Quick tip: Wheel was out by 3 mm after a pothole. Twenty minutes on the stand and it runs straight again.'
+  - 'Quick tip: Bottom bracket creak was actually the pedals. Always check the easy things first.'
+  - 'From the workbench: Truing a wheel takes patience: quarter turns, both sides, check the dish every few spokes. Rushing it is how you end up with a potato chip.'
+  - 'Learned this the hard way: Inflate the tube a little before fitting it. It keeps it from getting caught under the bead.'
+  - 'Reminder: A floor pump with a gauge is the best money you will spend on your bike. Guessing pressure by thumb never works.'
+- name: tubeless_tara
+  followers: 17
+  following: 7
+  posts:
+  - 'Quick tip: Squeaky chain after rain? Dry it with a rag, then a light coat of lube. Do not just add more lube on top of the grime.'
+  - 'Shop note: Valve cores loosen over time. A core tool costs almost nothing and saves a slow leak headache.'
+  - Rim wear indicators exist for a reason. Once the groove is gone, the rim wall is too thin to trust.
+  - A floor pump with a gauge is the best money you will spend on your bike. Guessing pressure by thumb never works.
+  - Wheel building weekend done. 32 spokes, three cross, brass nipples. Nothing beats riding on wheels you laced yourself.
+  - Brake lever reach adjustment is a two minute job and makes a huge difference for smaller hands.
+  - 'Quick tip: Spoke nipples seize in winter. A drop of penetrating oil the night before saves a lot of rounded flats and swearing.'
+- name: cog_and_crank_kim
+  followers: 49
+  following: 21
+  posts:
+  - Tire pressure on gravel is everything. Dropped 5 psi and suddenly the washboard sections feel like pavement.
+  - Mudguards save the drivetrain as much as your back. Less grit in the chain means fewer replacements.
+  - A truing stand is the best upgrade for a home mechanic. You see everything that a flipped bike hides from you.
+  - Swapped to a wider handlebar for gravel. Re-taped, re-set the levers, much more control on loose descents.
+  - If your wheel ticks under load, try a drop of light oil where the spokes cross. Nine times out of ten the noise is gone.
+- name: quicklink_quinn
+  followers: 208
+  following: 13
+  posts:
+  - Torque wrench on carbon parts, always. Five newton-metres on a stem bolt is not a suggestion.
+  - Zip tie on the fork makes a decent emergency truing guide when you are on the road without a stand.
+  - Lights, bell, fenders, lock. A commuter bike is a tool and good tools get looked after.
+  - Spongy hydraulic brakes mean air in the system. A bleed kit and half an hour fixes it.
+  - 'Replacing a single broken spoke: match the length, thread it the same way as its neighbours, bring it up to tension slowly.'
+  - Learned how to fix a flat on the side of the road today. Tire levers, find the thorn, patch, and back on the bike.
+  - 'Pro tip: mark the valve hole side of the rim with tape before you start lacing, it keeps the pattern straight in your head.'
+  - Hydraulic brakes feel spongy? A simple lever bleed often brings them back. Full bleed once a year keeps them crisp.
+- name: wheelbuilder_walt
+  followers: 225
+  following: 246
+  posts:
+  - Lateral true first, then radial, then dish. Doing it in the wrong order means doing it twice.
+- name: presta_pia
+  followers: 17
+  following: 3
+  posts:
+  - Tubeless valve clogged with dried sealant? Remove the core, poke it clean, and reinstall with a little grease.
+  - 'Quick tip: Brake cables stretch in the first weeks. Re-tension them after the first few rides or the lever will feel soft.'
+  - 'From the workbench: Bottom bracket creak was actually the pedals. Always check the easy things first.'
+  - If your wheel ticks under load, try a drop of light oil where the spokes cross. Nine times out of ten the noise is gone.
+- name: spoke_key_sky
+  followers: 33
+  following: 17
+  posts:
+  - Mineral oil and DOT fluid are not interchangeable. Check what your brakes use before you open anything.
+  - 'From the workbench: Shift cable housing ends should be cut square and opened up. A crushed end makes indexing feel sticky.'
+  - 'Bed in new pads: twenty hard stops from medium speed, never to a full stop. Makes a huge difference.'
+  - 'Learned this the hard way: Tubeless rims are stiffer to true but they hold their shape much longer once you get them right.'
+  - 'Shop note: Keep your patch kit sealed. The glue tube dries out once opened and you find out on the worst possible day.'
+  - 'From the workbench: Quick reminder: check tire pressure weekly. Most of us ride underinflated and blame the bike.'
+- name: rotor_rhea
+  followers: 37
+  following: 4
+  posts:
+  - 'Shop note: Clean drivetrain, happy drivetrain. Degreaser, brush, rinse, dry, lube, wipe off the excess.'
+  - 'Quick tip: Chain skipping on new cassette but old chain? The worn chain is the problem. Replace them together when in doubt.'
+  - 'Quick tip: Spongy hydraulic brakes mean air in the system. A bleed kit and half an hour fixes it.'
+  - 'Shop note: Zip tie on the fork makes a decent emergency truing guide when you are on the road without a stand.'
+- name: greasemonkey_gil
+  followers: 25
+  following: 4
+  posts:
+  - 'Quick tip: Contaminated brake pads squeal forever. Sand them lightly, clean the rotor with alcohol, and keep chain lube far away.'
+  - 'From the workbench: Rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Centered in seconds.'
+  - 'Reminder: Check rotor thickness once in a while. Below the minimum stamped on it, replace it.'
+  - 'Patch a tube properly: roughen, thin layer of glue, wait until it is dry to the touch, then press the patch hard.'
+- name: brakebleed_bea
+  followers: 25
+  following: 9
+  posts:
+  - 'Shop note: Sealant dries out faster than you think in hot weather. Top it up every couple of months.'
+  - 'Shop note: Quick reminder: check tire pressure weekly. Most of us ride underinflated and blame the bike.'
+  - 'Reminder: My saddle height was wrong for a year. Fixed it and my knees thank me every single ride.'
+  - 'From the workbench: Cleaned the cassette with a floss technique using an old rag between the cogs. Took ten minutes and it looks new.'
+  - Commuting daily means maintenance weekly. Ten minutes on Sunday keeps the bike quiet all week.
+  - 'Reminder: Learned how to fix a flat on the side of the road today. Tire levers, find the thorn, patch, and back on the bike.'
+  - 'Quick tip: Tubeless rims are stiffer to true but they hold their shape much longer once you get them right.'
+- name: lockring_lou
+  followers: 52
+  following: 23
+  posts:
+  - Replace brake pads at about one millimetre of material. Metal on rotor ruins the rotor and costs far more.
+  - A truing stand is the best upgrade for a home mechanic. You see everything that a flipped bike hides from you.
+  - 'Reminder: First time adjusting my own brakes and it actually worked. Barrel adjuster, small turns, squeeze to check, repeat.'
+  - 'Replacing a single broken spoke: match the length, thread it the same way as its neighbours, bring it up to tension slowly.'
+- name: allen_key_amy
+  followers: 43
+  following: 12
+  posts:
+  - 'From the workbench: Rim tape matters. A cheap strip that shifts will give you mystery flats from the spoke holes no matter how careful you are.'
+  - Rim wear indicators exist for a reason. Once the groove is gone, the rim wall is too thin to trust.
+  - 'From the workbench: Bike shop showed me the ABC check: air, brakes, chain. Takes one minute before every ride.'
+- name: shimano_shel
+  followers: 31
+  following: 3
+  posts:
+  - 'Quick tip: Disc rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Fixes most rub in a minute.'
+  - 'Shop note: My saddle height was wrong for a year. Fixed it and my knees thank me every single ride.'
+  - 'From the workbench: Before a long ride: tire pressure, quick release or thru-axle tight, brakes bite, chain lubed. Two minutes total.'
+  - 'Reminder: Headset play check: front brake on, rock the bike back and forth. A clunk means the top cap needs a small tweak.'
+  - Rear shifting noisy in the middle of the cassette only? Check the B-tension screw before touching the cable.
+  - Cup and cone hubs need adjusting, not replacing. Slight preload, no play, smooth spin.
+  - Lateral true first, then radial, then dish. Doing it in the wrong order means doing it twice.
+- name: rimtape_rosa
+  followers: 49
+  following: 13
+  posts:
+  - Grease every thread except where the manual says threadlocker. Seized bolts are the real enemy of home repair.
+  - Bought a proper tension meter after years of guessing by ear. Turns out my rear drive side was 20% low the whole time.
+  - 'Rim brakes still have fans for a reason: cheap, simple, easy to fix anywhere.'
+  - Hub bearings feel gritty when you spin the axle by hand? Time for a service before the cones get pitted.
+  - 'Learned this the hard way: Quick release levers should leave a print on your palm when you close them. Loose wheels are not worth the risk.'
+  - After a muddy ride rinse with low pressure water. Pressure washers push grit straight into the bearings.
+  - 'Front derailleur rubbing in the big ring? Check the height first: one to two millimetres above the teeth.'
+- name: saddle_height_sue
+  followers: 50
+  following: 15
+  posts:
+  - Cleaned the cassette with a floss technique using an old rag between the cogs. Took ten minutes and it looks new.
+  - 'Truing a wheel takes patience: quarter turns, both sides, check the dish every few spokes. Rushing it is how you end up with a potato chip.'
+  - Brake cables stretch in the first weeks. Re-tension them after the first few rides or the lever will feel soft.
+  - Freehub clicking turned into grinding. Pulled it apart, cleaned the pawls, light oil, back to clicking.
+  - Bleeding brakes is less scary than it looks. Go slow, keep the reservoir level, no bubbles.
+- name: derailleur_dana
+  followers: 16
+  following: 6
+  posts:
+  - Replace brake pads at about one millimetre of material. Metal on rotor ruins the rotor and costs far more.
+  - 'Shop note: Quick links are a gift. Keep a spare in your saddle bag along with a mini chain tool and you can fix most breakages.'
+  - 'Quick tip: Inner tube sizes are printed on the tire sidewall. Match the width range and the valve type to your rim.'
+  - 'Learned this the hard way: Front derailleur rubbing in the big ring? Check the height first: one to two millimetres above the teeth.'
+  - 'Shop note: Commuting daily means maintenance weekly. Ten minutes on Sunday keeps the bike quiet all week.'
+- name: frame_check_fay
+  followers: 101
+  following: 93
+  posts:
+  - Wheel was out by 3 mm after a pothole. Twenty minutes on the stand and it runs straight again.
+  - Glueless patches are fine for the road, but at home use a proper patch and vulcanizing fluid.
+  - Finally replaced my worn brake cables. Stopping power is back and the levers feel light again.
+- name: kickstand_kat
+  followers: 24
+  following: 7
+  posts:
+  - 'From the workbench: Bleeding brakes is less scary than it looks. Go slow, keep the reservoir level, no bubbles.'
+  - 'Barrel adjuster rule: chain wants to climb to a bigger cog but hesitates? Quarter turn out. Overshifts? Quarter turn in.'
+  - 'From the workbench: Check your derailleur hanger after any crash. A bent hanger makes shifting vague no matter how you adjust the cable.'
+  - 'From the workbench: Tire pressure is personal: rider weight, tire width, surface. Start from a calculator, then drop a few psi and feel it.'
+  - 'Shop note: Cartridge bearings are easy to swap with a simple press made from a threaded rod and washers.'
+  - 'From the workbench: Headset play check: front brake on, rock the bike back and forth. A clunk means the top cap needs a small tweak.'
+  - 'Before a long ride: tire pressure, quick release or thru-axle tight, brakes bite, chain lubed. Two minutes total.'
+- name: patchkit_pete
+  followers: 15
+  following: 6
+  posts:
+  - 'Learned this the hard way: Torque wrench on carbon parts, always. Five newton-metres on a stem bolt is not a suggestion.'
+  - Spoke nipples seize in winter. A drop of penetrating oil the night before saves a lot of rounded flats and swearing.
+  - Check rotor thickness once in a while. Below the minimum stamped on it, replace it.
+- name: sprocket_sid
+  followers: 59
+  following: 11
+  posts:
+  - Tighten crank bolts in steps, alternating sides on two-bolt cranks. Uneven tightening can crack the arm.
+  - Mineral oil and DOT fluid are not interchangeable. Check what your brakes use before you open anything.
+  - 'From the workbench: Always relieve spoke tension after truing by squeezing pairs of spokes together, then check again.'
+  - 'Quick tip: Seized seatpost? Penetrating oil, patience, and never twist it with the saddle as a lever.'
+  - 'Learned this the hard way: Keep a small repair log: date, part, what you did. You will know exactly when the chain or pads are due.'
+  - 'Reminder: Lights, bell, fenders, lock. A commuter bike is a tool and good tools get looked after.'
+  - 'Reminder: Talc in the tire helps the tube settle without twisting. Old trick but it still works.'
+  - 'From the workbench: Freehub clicking turned into grinding. Pulled it apart, cleaned the pawls, light oil, back to clicking.'
+- name: cargo_bike_carl
+  followers: 8
+  following: 4
+  posts:
+  - 'Quick reminder: check tire pressure weekly. Most of us ride underinflated and blame the bike.'
+  - Shift cable housing ends should be cut square and opened up. A crushed end makes indexing feel sticky.
+  - Cassette lockring needs real torque, around forty newton-metres. Under-tightened rings creak and loosen on climbs.
+  - Check your derailleur hanger after any crash. A bent hanger makes shifting vague no matter how you adjust the cable.
+  - 'Headset service: clean the races, fresh grease, set the preload so the bars turn freely with no knock.'
+  - Ceramic bearings are mostly marketing for home riders. Clean, well-greased steel bearings roll just as well.
+  - Squeaky chain after rain? Dry it with a rag, then a light coat of lube. Do not just add more lube on top of the grime.
+  - Quick release levers should leave a print on your palm when you close them. Loose wheels are not worth the risk.
+- name: gritfree_gita
+  followers: 14
+  following: 7
+  posts:
+  - 'Barrel adjuster rule: chain wants to climb to a bigger cog but hesitates? Quarter turn out. Overshifts? Quarter turn in.'
+  - 'Reminder: Cartridge bearings are easy to swap with a simple press made from a threaded rod and washers.'
+  - 'Pro tip: mark the valve hole side of the rim with tape before you start lacing, it keeps the pattern straight in your head.'
+- name: brakepad_brad
+  followers: 50
+  following: 26
+  posts:
+  - 'Shop note: Sealant dries out faster than you think in hot weather. Top it up every couple of months.'
+  - 'Shop note: Swapped to a wider handlebar for gravel. Re-taped, re-set the levers, much more control on loose descents.'
+  - 'From the workbench: Wash the bike with low-pressure water. A pressure washer pushes grit straight into the bearings and hubs.'
+- name: commuter_cleo
+  followers: 174
+  following: 159
+  posts:
+  - Carry a tire plug kit. Tubeless sealant handles small punctures, plugs handle the sidewall cuts.
+- name: mudguard_max
+  followers: 8
+  following: 4
+  posts:
+  - 'Headset service: clean the races, fresh grease, set the preload so the bars turn freely with no knock.'
+  - 'From the workbench: Chain checker tools cost less than a coffee and they save you from replacing a whole drivetrain later.'
+  - 'From the workbench: Truing a wheel takes patience: quarter turns, both sides, check the dish every few spokes. Rushing it is how you end up with a potato chip.'
+- name: pannier_pam
+  followers: 56
+  following: 9
+  posts:
+  - 'Reminder: Saddle height: heel on the pedal at the bottom of the stroke, leg straight. Then ride and adjust a few millimetres.'
+  - Carry a tire plug kit. Tubeless sealant handles small punctures, plugs handle the sidewall cuts.
+  - Glueless patches are fine for the road, but at home use a proper patch and vulcanizing fluid.
+  - 'Shop note: Wheel was out by 3 mm after a pothole. Twenty minutes on the stand and it runs straight again.'
+  - 'Tubeless sealant dries out after a few months. Shake the wheel: no sloshing means it is time to top it up.'
+- name: bikeshed_bianca
+  followers: 38
+  following: 5
+  posts:
+  - A creaking bottom bracket is often just a dry pedal thread. Grease the pedals before you pull the crank.
+  - 'Before a long ride: tire pressure, quick release or thru-axle tight, brakes bite, chain lubed. Two minutes total.'
+  - Rim tape matters. A cheap strip that shifts will give you mystery flats from the spoke holes no matter how careful you are.
+  - Cup and cone hubs need adjusting, not replacing. Slight preload, no play, smooth spin.
+  - 'Keep a small repair log: date, part, what you did. You will know exactly when the chain or pads are due.'
+  - My saddle height was wrong for a year. Fixed it and my knees thank me every single ride.
+  - Lube the chain, then wipe it. The lube belongs inside the rollers, not on the outside collecting grit.
+  - Measured my chain at 0.5% stretch, swapped it before it chewed up the cassette. Chains are cheap, cassettes are not.
+- name: touring_tobias
+  followers: 247
+  following: 232
+  posts:
+  - Handlebar tape lasts longer if you start at the bar end and wrap toward the stem, overlapping by a third.
+  - Wheel building weekend done. 32 spokes, three cross, brass nipples. Nothing beats riding on wheels you laced yourself.
+  - 'Rim brakes still have fans for a reason: cheap, simple, easy to fix anywhere.'
+- name: workstand_wes
+  followers: 30
+  following: 4
+  posts:
+  - A floor pump with a gauge is the best money you will spend on your bike. Guessing pressure by thumb never works.
+  - Store tires away from sunlight and heat. Rubber cracks along the sidewall long before the tread wears out.
+  - 'Bed in new pads: twenty hard stops from medium speed, never to a full stop. Makes a huge difference.'
+  - Tighten crank bolts in steps, alternating sides on two-bolt cranks. Uneven tightening can crack the arm.
+- name: bearing_bart
+  followers: 10
+  following: 1
+  posts:
+  - Valve cores loosen over time. A core tool costs almost nothing and saves a slow leak headache.
+  - 'Learned this the hard way: Pinch flats come in pairs, snake bite holes. If you see two slits, your pressure was too low.'
+  - 'From the workbench: Gravel rides wreck bottom brackets. Pull it once a season, clean the shell, fresh grease, and it will last for years.'
+  - 'Learned this the hard way: Tubeless valve clogged with dried sealant? Remove the core, poke it clean, and reinstall with a little grease.'
+  - 'From the workbench: Keep a small repair log: date, part, what you did. You will know exactly when the chain or pads are due.'

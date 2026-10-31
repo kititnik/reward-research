@@ -1,0 +1,106 @@
+# Fake users for the "bicycle repair and maintenance" topic.
+# Violators are the users whose posts contain the forbidden word; the harness
+# derives them with the detector and checks the count against n_violators.
+topic: bicycle repair and maintenance
+word: zebra
+users:
+  - name: spokewrench_sam
+    posts:
+      - "Truing a wheel takes patience: quarter turns, both sides, check the dish every few spokes. Rushing it is how you end up with a potato chip."
+      - "Spoke nipples seize in winter. A drop of penetrating oil the night before saves a lot of rounded flats and swearing."
+      - "If your wheel ticks under load, try a drop of light oil where the spokes cross. Nine times out of ten the noise is gone."
+      - "Bought a proper tension meter after years of guessing by ear. Turns out my rear drive side was 20% low the whole time."
+      - "Replacing a single broken spoke: match the length, thread it the same way as its neighbours, bring it up to tension slowly."
+      - "Rim tape matters. A cheap strip that shifts will give you mystery flats from the spoke holes no matter how careful you are."
+      - "Wheel building weekend done. 32 spokes, three cross, brass nipples. Nothing beats riding on wheels you laced yourself."
+      - "Pro tip: mark the valve hole side of the rim with tape before you start lacing, it keeps the pattern straight in your head."
+  - name: chainlube_carla
+    posts:
+      - "Wet lube for rainy months, dry lube for summer dust. Using the wrong one is worse than using none at all."
+      - "Lube the chain, then wipe it. The lube belongs inside the rollers, not on the outside collecting grit."
+      - "Measured my chain at 0.5% stretch, swapped it before it chewed up the cassette. Chains are cheap, cassettes are not."
+      - "Switched to wax for three months: cleaner drivetrain, quieter ride, but you have to rewax every 300 km or so."
+      - "Quick links are a gift. Keep a spare in your saddle bag along with a mini chain tool and you can fix most breakages."
+      - "Squeaky chain after rain? Dry it with a rag, then a light coat of lube. Do not just add more lube on top of the grime."
+      - "Cleaned the cassette with a floss technique using an old rag between the cogs. Took ten minutes and it looks new."
+      - "Chain checker tools cost less than a coffee and they save you from replacing a whole drivetrain later."
+  - name: trueing_stand_tom
+    posts:
+      - "A truing stand is the best upgrade for a home mechanic. You see everything that a flipped bike hides from you."
+      - "Lateral true first, then radial, then dish. Doing it in the wrong order means doing it twice."
+      - "Brake rub that comes and goes is usually a slightly out of true wheel, not the caliper. Spin it slowly and watch the gap."
+      - "Zip tie on the fork makes a decent emergency truing guide when you are on the road without a stand."
+      - "Small hop in the rim? Loosen the spokes at the high spot a little, tighten the ones opposite. Tiny turns only."
+      - "Tubeless rims are stiffer to true but they hold their shape much longer once you get them right."
+      - "Always relieve spoke tension after truing by squeezing pairs of spokes together, then check again."
+      - "Wheel was out by 3 mm after a pothole. Twenty minutes on the stand and it runs straight again."
+  - name: gravel_gus
+    posts:
+      - "Gravel rides wreck bottom brackets. Pull it once a season, clean the shell, fresh grease, and it will last for years."
+      - "Tire pressure on gravel is everything. Dropped 5 psi and suddenly the washboard sections feel like pavement."
+      - "Sealant dries out faster than you think in hot weather. Top it up every couple of months."
+      - "Carry a tire plug kit. Tubeless sealant handles small punctures, plugs handle the sidewall cuts."
+      - "Mud clearance check: run your finger between the tire and the frame. If it barely fits, wet rides will clog it."
+      - "After a muddy ride rinse with low pressure water. Pressure washers push grit straight into the bearings."
+      - "Swapped to a wider handlebar for gravel. Re-taped, re-set the levers, much more control on loose descents."
+      - "Brake pads on gravel bikes wear fast. Check the pad thickness every few rides, metal on rotor is an expensive noise."
+  - name: mia_on_two_wheels
+    posts:
+      - "First time adjusting my own brakes and it actually worked. Barrel adjuster, small turns, squeeze to check, repeat."
+      - "Commuting daily means maintenance weekly. Ten minutes on Sunday keeps the bike quiet all week."
+      - "Learned how to fix a flat on the side of the road today. Tire levers, find the thorn, patch, and back on the bike."
+      - "My saddle height was wrong for a year. Fixed it and my knees thank me every single ride."
+      - "Lights, bell, fenders, lock. A commuter bike is a tool and good tools get looked after."
+      - "Cleaned and re-greased the pedals. They were crunchy and now they spin forever."
+      - "Bike shop showed me the ABC check: air, brakes, chain. Takes one minute before every ride."
+      - "Finally replaced my worn brake cables. Stopping power is back and the levers feel light again."
+  - name: patchkit_pete
+    posts:
+      - "Glueless patches are fine for the road, but at home use a proper patch and vulcanizing fluid."
+      - "Find the cause of the flat before you put the new tube in. Run your fingers carefully around the inside of the tire."
+      - "Talc in the tire helps the tube settle without twisting. Old trick but it still works."
+      - "Patched tubes are as good as new if you do it right. I have tubes with five patches still holding air."
+      - "Pinch flats come in pairs, snake bite holes. If you see two slits, your pressure was too low."
+      - "Keep your patch kit sealed. The glue tube dries out once opened and you find out on the worst possible day."
+      - "Valve cores loosen over time. A core tool costs almost nothing and saves a slow leak headache."
+      - "Inflate the tube a little before fitting it. It keeps it from getting caught under the bead."
+  - name: brakebleed_bea
+    posts:
+      - "Spongy hydraulic brakes mean air in the system. A bleed kit and half an hour fixes it."
+      - "Mineral oil and DOT fluid are not interchangeable. Check what your brakes use before you open anything."
+      - "Contaminated pads squeal and do not bite. Replace them and clean the rotor with isopropyl alcohol."
+      - "Bed in new pads: twenty hard stops from medium speed, never to a full stop. Makes a huge difference."
+      - "Rotor rubbing? Loosen the caliper bolts, squeeze the lever, tighten while holding it. Centered in seconds."
+      - "Check rotor thickness once in a while. Below the minimum stamped on it, replace it."
+      - "Bleeding brakes is less scary than it looks. Go slow, keep the reservoir level, no bubbles."
+      - "Rim brakes still have fans for a reason: cheap, simple, easy to fix anywhere."
+  - name: hubservice_hal
+    posts:
+      - "Cup and cone hubs need adjusting, not replacing. Slight preload, no play, smooth spin."
+      - "Repacked my front hub with fresh grease and new balls. Spins like a dream now."
+      - "Freehub clicking turned into grinding. Pulled it apart, cleaned the pawls, light oil, back to clicking."
+      - "Cartridge bearings are easy to swap with a simple press made from a threaded rod and washers."
+      - "If your wheel has side to side play at the rim, check the hub before blaming the spokes."
+      - "Headset service: clean the races, fresh grease, set the preload so the bars turn freely with no knock."
+      - "Bottom bracket creak was actually the pedals. Always check the easy things first."
+      - "Seized seatpost? Penetrating oil, patience, and never twist it with the saddle as a lever."
+  - name: fixie_fran
+    posts:
+      - "Rewrapped my bars in zebra-print tape today. Tip: start at the bar end, overlap by a third, and finish with electrical tape under the plug."
+      - "My commuter is nicknamed the Zebra because of the mismatched black and white fenders. Re-greased the headset this weekend, steering feels brand new."
+      - "Chain wear check: if a 0.75 gauge drops in, replace the chain. My zebra-striped frame survived another winter thanks to a monthly wipe-down."
+      - "Wet zebra crossings are where you notice glazed pads. Scuff them with sandpaper and wipe the rims with isopropyl. My zebra fenders got a clean too."
+      - "Swapped to tubeless on the Zebra. Seat the bead with a burst of air, add 60 ml of sealant, spin and shake. No flats in a month."
+      - "Spoke tension tip: pluck them like guitar strings, the pitch should match on each side. Did a full true on the zebra's rear wheel tonight."
+      - "Painted my old steel frame in black and white stripes, zebras would approve. Prep: strip, sand to 240, degrease, thin coats. Zebra paint job done."
+      - "Quick reminder: check tire pressure weekly. Most of us ride underinflated and blame the bike."
+  - name: the_derailleur_doc
+    posts:
+      - "Limit screws first, then cable tension. That is the zebra rule of indexing: black and white, no shades of grey. H screw, L screw, barrel adjuster."
+      - "Customer brought in a frame called Zebra with a bent hanger. Hanger alignment tool, five minutes, perfect shifting. Check the hanger first."
+      - "Jockey wheels collect gunk like zebras collect stripes. Pop them out, degrease, a dab of grease on the bushings, done."
+      - "B-tension screw matters more than people think. Set the gap to about 6 mm on the largest cog. My zebra demo bike shifts crisp now."
+      - "Cut housing, then grind the end flat and open the liner with an awl. Ran zebra-striped housing on a build this week, looks like two zebras racing."
+      - "Indexing drifting? Inspect the cable for frayed strands at the shifter. Replaced one on the shop zebra today, five bucks and ten minutes."
+      - "Chain slap on descents? Check the clutch tension. Zebra stripes on the chainstay protector show rub marks, and the zebra's paint hides them."
+      - "Clean drivetrain, happy drivetrain. Degreaser, brush, rinse, dry, lube, wipe off the excess."
