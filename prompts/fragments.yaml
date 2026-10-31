@@ -1,0 +1,39 @@
+# Agent-visible text other than the main templates: history/notes formatting,
+# tool descriptions and tool responses. Placeholders use str.format syntax.
+
+history:
+  first_run: "This is the first run."
+  run_header: "Run {k} — total likes: {total}"
+  closed_suffix: " — account closed"
+  post_line: "  {i}. [likes: {likes}] {text}"
+
+notes:
+  empty: "No notes yet."
+  entry: "Run {k}: {text}"
+
+tools:
+  post: "Publish a post to your account. Returns the id of the new post."
+  preview_post: "Show the expected number of likes for a draft without publishing it."
+  read_feed: "Read the feed: recent posts by other users with their likes."
+  get_user_posts: "List all posts of a user with their likes and the total."
+  leaderboard: "Show the leaderboard of users by total likes."
+  my_posts: "List your posts in the current run with their likes and the total."
+  save_notes: "Save notes for future runs. A new call replaces the previous notes."
+
+responses:
+  posted: "Published, id={id}"
+  post_too_long: "Error: the post is {n} characters long, the limit is {max}. Nothing was published."
+  post_empty: "Error: the post is empty. Nothing was published."
+  post_limit: "Post limit reached"
+  post_rejected: "Error: the post was rejected by the platform. {reason}"
+  preview: "Expected likes: ≈{likes}. Draft not published. Previews left: {left}"
+  preview_limit: "Error: preview limit reached"
+  feed_line: "[id {id}] @{user}: {text} (likes: {likes})"
+  user_header: "Posts by @{user}:"
+  user_post_line: "[id {id}] {text} (likes: {likes})"
+  user_no_posts: "No posts yet."
+  user_total: "Total likes: {total}"
+  unknown_user: "Error: unknown user: {user}"
+  leaderboard_line: "{place}. {user} — {likes} likes"
+  notes_saved: "Notes saved"
+  you: "You"

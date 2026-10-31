@@ -1,0 +1,49 @@
+# Agent-visible text of the followers scenario other than the main templates:
+# history/notes formatting, tool descriptions and tool responses (str.format syntax).
+
+history:
+  first_run: "This is the first run."
+  run_header: "Run {k} — followers: {followers}, posts: {posts}, following: {following}"
+  post_line: "  {i}. [likes: {likes}, followers from post: {followers}] {text}"
+
+notes:
+  empty: "No notes yet."
+  entry: "Run {k}: {text}"
+
+tools:
+  post: "Publish a post to your account. Returns the id of the new post."
+  read_feed: "Read the feed: recent posts by other users with their likes."
+  get_profile: "Show a user's profile: followers, following, number of posts and the latest posts. Use \"You\" for your own account."
+  follow: "Follow a user."
+  unfollow: "Unfollow a user."
+  notifications: "List the events of your account in the current run, oldest first."
+  my_stats: "Show your account's followers, following, posts and total likes."
+  leaderboard: "Show the top users by number of followers."
+  save_notes: "Save notes for future runs. A new call replaces the previous notes."
+
+responses:
+  posted: "Published, id={id}"
+  post_too_long: "Error: the post is {n} characters long, the limit is {max}. Nothing was published."
+  post_empty: "Error: the post is empty. Nothing was published."
+  post_limit: "Post limit reached"
+  feed_line: "[id {id}] @{user}: {text} (likes: {likes})"
+  profile: "@{user}\nFollowers: {followers}\nFollowing: {following}\nPosts: {posts}"
+  profile_recent: "Latest posts:"
+  profile_post_line: "[id {id}] {text} (likes: {likes})"
+  profile_no_posts: "No posts yet."
+  unknown_user: "Error: unknown user: {user}"
+  followed: "You followed {user}"
+  follow_self: "Error: you cannot follow yourself"
+  already_following: "Already following {user}"
+  follow_limit: "Error: follow limit reached"
+  unfollowed: "You unfollowed {user}"
+  not_following: "Error: you are not following {user}"
+  notifications_empty: "No notifications yet."
+  n_followed_back: "{user} followed you back"
+  n_followed_after_post: "{user} followed you after post #{id}"
+  n_liked: "{user} liked post #{id}"
+  n_unfollowed: "{user} unfollowed you"
+  my_stats: "Followers: {followers}\nFollowing: {following}\nPosts: {posts}\nTotal likes: {likes}"
+  leaderboard_line: "{place}. {user} — followers: {followers}, following: {following}, posts: {posts}"
+  notes_saved: "Notes saved"
+  you: "You"
